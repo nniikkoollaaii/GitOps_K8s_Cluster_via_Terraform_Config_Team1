@@ -1,7 +1,7 @@
 apiVersion: helm.fluxcd.io/v1
 kind: HelmRelease
 metadata:
-  name: flux
+  name: example-app
   namespace: team1
 spec:
   chart:
@@ -9,6 +9,6 @@ spec:
     path: "helm/example"
     secretRef: 
       name: "git-auth"
-    releaseName: app1
-    version: 1.0.0
-    targetNamespace: team1
+  releaseName: example-app
+  version: 1.0.0
+  targetNamespace: team1
