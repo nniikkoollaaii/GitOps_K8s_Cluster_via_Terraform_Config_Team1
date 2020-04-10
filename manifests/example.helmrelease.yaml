@@ -11,4 +11,4 @@ spec:
       name: "git-auth"
   releaseName: example-app
   version: 1.0.0
-  targetNamespace: team2-dev
+  targetNamespace: team1
